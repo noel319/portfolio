@@ -19,7 +19,7 @@ import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "rea
 import { TbBrandReactNative } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 
-export const TechStackData = [
+export const SkillsData = [
   {
     Advance: [
       {
