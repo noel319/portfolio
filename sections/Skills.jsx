@@ -2,7 +2,7 @@
 import React, { Fragment, useState, useEffect, useRef } from "react";
 import { FaLaptopCode } from "react-icons/fa";
 
-import { TechStackData } from "@/constants/SkillsData";
+import { SkillsData } from "@/constants/SkillsData";
 
 const TechStack = () => {
   const [section, setSection] = useState("Advance");
@@ -39,7 +39,7 @@ const TechStack = () => {
   }, [istechStack]);
 
   useEffect(() => {
-    const selectedSection = TechStackData.find((sections) =>
+    const selectedSection = SkillsData.find((sections) =>
       sections.hasOwnProperty(section)
     );
     setSectionData(selectedSection ? selectedSection[section] : []);
