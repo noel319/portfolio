@@ -1,7 +1,6 @@
 import "@/styles/globals.css"
 import "@/styles/animation.css"
 import "@/styles/cssGrid.css"
-import "@/styles/Home.module.css"
 import { Analytics } from "@vercel/analytics/react"
 import ReactGA from "react-ga4";
 

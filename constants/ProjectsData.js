@@ -1,5 +1,14 @@
 export const ProjectsData = [
     {
+        projectName: " FinancePro:  finance automation system to handle large-scale data processing and user transactions.",
+        liveUrl: "https://www.digiservesolutions.com/",
+        githubUrl: "https://github.com/noel319",
+        projectImage: {
+            imageUrl: "images/projects/django_1.png"
+        },
+        techs: ["django", "Docker", "LangChain", "Redis", "PostgreSQL", "Redshift", "Celery","ETL", "LLM", "Airflow"]
+    },
+    {
         projectName: "Personal Portfolio Generator",
         liveUrl: "https://Mathias.com",
         githubUrl: "https://github.com/noel319",
@@ -79,15 +88,6 @@ export const ProjectsData = [
             imageUrl: "images/projects/laravel_1.png"
         },
         techs: ["Laravel", "AWS", "Bootstrap", "MailChimp", "REST API"]
-    },
-    {
-        projectName: " FinancePro:  finance automation system to handle large-scale data processing and user transactions.",
-        liveUrl: "https://www.digiservesolutions.com/",
-        githubUrl: "https://github.com/noel319",
-        projectImage: {
-            imageUrl: "images/projects/django_1.png"
-        },
-        techs: ["django", "Docker", "LangChain", "Redis", "PostgreSQL", "Redshift", "Celery","ETL", "LLM", "Airflow"]
-    }
+    },   
 
 ]

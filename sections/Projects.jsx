@@ -94,17 +94,7 @@ const Project = () => {
                       >
                         <HiExternalLink />
                       </Link>
-                    )}
-                    {/* Live url */}
-                    {project.githubUrl && (
-                      <Link
-                        className='text-xl text-white p-1 bg-gray-700 hover:bg-gray-950 rounded'
-                        href={project.githubUrl}
-                        target='_blank'
-                      >
-                        <BsGithub />
-                      </Link>
-                    )}
+                    )}                    
                   </div>
                 </div>
               </div>
